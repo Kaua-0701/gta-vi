@@ -1,0 +1,62 @@
+@media (max-width: 1024px){
+    .cabecalho{
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a{
+        padding: 15px;
+    }
+
+    .home .informacoes{
+        padding: 30px;
+    }
+
+    .home .informacoes img {
+        max-width: 100px;
+    }
+
+    .home .informacoes .titulo{
+        font-size: 40px;
+    }
+
+    .home .informacoes .texto { 
+        font-size: 15px;
+    }
+
+
+    .visitar-ja .cartao {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 768px){
+    .visitar-ja{
+        padding: 30px;
+    }
+
+    .visitar-ja .cartao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    main::after{
+        background: linear-gradient(90deg, rgba(53, 4, 59, 0.767), rgba(90, 2, 102, 0.336) 35%, transparent 65%);
+    }
+
+    .visitar-ja .cartao .capa-do-jogo{
+        max-width: 80%;
+    }
+
+    .btn-trailer {
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+
+}
+

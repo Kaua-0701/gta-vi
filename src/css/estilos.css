@@ -1,0 +1,190 @@
+body {
+    background-image: linear-gradient( rgb(241, 156, 59), rgba(18, 6, 20, 0.911));
+    color: #fff;
+}
+
+/* HEADER */
+
+.cabecalho {
+    background-color: #7dc6e7;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 2px solid #fff;
+    transition: 2s;
+}
+
+.cabecalho .logo {
+    display: flex;
+    gap: 15px;
+
+}
+
+.cabecalho .logo img {
+    height: 45px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho .menu li a {
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'ChaletComprime';
+}
+
+.cabecalho .menu li a:hover {
+    color: rgb(242, 243, 196);
+}
+
+
+
+/* MAIN */
+
+.home {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+
+}
+
+.home::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(53, 4, 59, 0.897), rgba(90, 2, 102, 0.507) 35%, transparent 65%);
+}
+
+.home .imagem-fundo {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid #fff;
+    
+}
+
+.home .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
+}
+
+.home .informacoes img {
+    max-width: 150px;
+}
+
+.home .informacoes .titulo {
+    font-family: 'ChaletComprime';
+    font-size: 55px;
+    text-shadow: 4px 4px 4px #ff66c4;
+}
+
+.home .informacoes .texto {
+    font-family: 'Chalet';
+    font-size: 18px;
+    line-height: 1.6;
+    text-shadow: 4px 4px 4px #ff66c4;
+}
+
+.btn-trailer {
+    background-color: rgba(255, 255, 255, .1);
+    border: 0.5px solid #fff;
+    border-radius: 4px;
+    font-family: 'ChaletComprime';
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .2s ease-in;
+}
+
+.btn-trailer:hover {
+    background-color: #fff;
+    color: #ff66c4;
+}
+
+
+/* SECTION */
+
+.visitar-ja .capa-do-jogo {
+    width: 270px;
+}
+
+.visitar-ja {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.visitar-ja .titulo-dois {
+    font-family: 'ChaletComprime';
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    text-shadow: 4px 4px 4px #111310;
+}
+
+.visitar-ja .cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111310;
+    width: 40%;
+    border-radius: 10px;
+    padding: 80px;
+    gap: 40px;
+}
+
+.visitar-ja .informacoes {
+    font-family: 'ChaletComprime';
+    font-size: 30px;
+    background: -webkit-linear-gradient(#f19c3b, #8b1e6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.visitar-ja .informacoes p {
+    font-family: 'Chalet';
+    font-size: 20px;
+}
+
+.visitar-ja .plataformas {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.btn-site-rockstar {
+    background-color: rgba(255, 255, 255, .1);
+    border: 0.5px solid #fff;
+    border-radius: 4px;
+    font-family: 'ChaletComprime';
+    font-size: 28px;
+    padding: 20px 30px;
+    transition: all .2s ease-in;
+}
+
+.btn-site-rockstar:hover {
+   background-color: #fff;
+    color: #f19c3b;
+}
